@@ -9,7 +9,7 @@ namespace EntityFrameWork_CrudDemo.Models
     public class Book
     {
         #region --Properties
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }

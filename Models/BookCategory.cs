@@ -11,7 +11,7 @@ namespace EntityFrameWork_CrudDemo.Models
         #region --Properties
         public int Id { get; set; }
         [ForeignKey("Book")]
-        public string BookId { get; set; }
+        public int BookId { get; set; }
         [ForeignKey("Category")]
         public int CategoryId { get; set; }
         #endregion

@@ -13,7 +13,7 @@ namespace EntityFrameWork_CrudDemo.Models
         public string PicturePath { get; set; }
         public string PictureName { get; set; }
         [ForeignKey("Book")]
-        public string BookId { get; set; }
+        public int BookId { get; set; }
         #endregion
         #region Navigation Properties
         public Book Book { get; set; }
