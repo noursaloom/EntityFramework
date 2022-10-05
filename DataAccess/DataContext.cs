@@ -16,8 +16,6 @@ namespace EntityFrameWork_CrudDemo.DataAccess
 
         public DbSet<Book> Book { get; set; }
         public DbSet<BookAuthor> BookAuthor { get; set; }
-        public DbSet<BookCategory> BookCategory { get; set; }
-        public DbSet<BookPicture> BookPicture { get; set; }
         public DbSet<Category> Category { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

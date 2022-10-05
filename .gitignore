@@ -361,3 +361,11 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/.vshistory/EntityFrameWork_CrudDemo.csproj
+/Controllers/.vshistory
+/Models/.vshistory
+/Views/Home/.vshistory/Index.cshtml
+/Views/Shared/.vshistory/_Layout.cshtml
+/Migrations/.vshistory
+/DataAccess/.vshistory/DataContext.cs
+/Views/Books/.vshistory/Create.cshtml

@@ -9,6 +9,5 @@ namespace EntityFrameWork_CrudDemo.Models
     {
         public int Id { get; set; }
         public string Title { get; set; }
-        public ICollection<BookCategory> BookCategories { get; set; }
     }
 }
