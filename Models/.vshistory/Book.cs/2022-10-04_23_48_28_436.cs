@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
@@ -13,7 +12,6 @@ namespace EntityFrameWork_CrudDemo.Models
         public string Title { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
-        [ForeignKey("BookAuthor")]
         public int BookAuthorId { get; set; }
         #endregion
         #region Navigation Properties

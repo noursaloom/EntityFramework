@@ -1,23 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
 namespace EntityFrameWork_CrudDemo.Models
 {
-    public class BookPicture
+    public class BookCategory
     {
         #region --Properties
         public int Id { get; set; }
-        public string PicturePath { get; set; }
-        public string PictureName { get; set; }
-        [ForeignKey("Book")]
         public string BookId { get; set; }
+        public int CategoryId { get; set; }
         #endregion
         #region Navigation Properties
         public Book Book { get; set; }
+        public Category Category { get; set; }
         #endregion
-
     }
 }
